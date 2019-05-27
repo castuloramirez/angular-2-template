@@ -1,9 +1,11 @@
 import {Component} from 'angular2/core';
-import { Config } from "./config.service";
+import { Config } from './config.service';
+import {Video} from './video';
+import {PlaylistComponent} from "./playlist.component";
 
 @Component({
     selector: 'my-app',
-    template: '<h1>{{ mainHeading }}</h1>'
+    templateUrl:'app/ts/app.component.html'
 })
 
 export class AppComponent {
